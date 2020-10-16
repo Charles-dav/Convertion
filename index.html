@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Todo</title>
+    <style>
+        input{
+            margin: 10px 0;
+            padding: 7px 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="container-box">
+            <!-- <form action="#">
+                <input class="textview" type="text" name="text" placeholder="write new todo.....">
+                <input class="submit-btn" type="submit" value="Add">
+            </form>
+            <div>
+                <ul class="item-box">
+                    <li>Go to gym this morning <i class="ion-close-circled"></i></li>
+                    <li>Go to gym this morning <i class="ion-close-circled"></i></li>
+                    <li>Go to gym this morning <i class="ion-close-circled"></i></li>
+                </ul>
+            </div> -->
+
+            <form action="" name="formCal">
+                <h2>Converter</h2>
+                <p class="main-p">Simple convertion with JavaScript</p>
+                <div class="row">
+                    <label for="textview"> Grams:</label>
+                    <input type="number" name="textview" id="textview1" placeholder="Grams">
+                </div>
+                
+                <p class="output">Kilogram: <span id="outputKilogram">0</span></p>
+                <p class="output">Ounces: <span id="ounces">0</span></p>
+                
+                <input type="button" value="Calculate" onclick="sumVal()">
+                <input type="button" value="Clear " onclick="clearScreen()">
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+<script src="main.js"></script>
+</body>
+</html>
