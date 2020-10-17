@@ -32,6 +32,7 @@ h2{
     padding: 8px;
     border-radius: 5px;
     width: 100%;
+    display: none;
 }
 
 input{
@@ -44,10 +45,14 @@ input[type=button]{
     color: #fff;
 }
 
-.main-p{
+.main-p,
+#label{
     font-size: 20px;
 }
 
+.display{
+    display: block;
+}
 
 
 
